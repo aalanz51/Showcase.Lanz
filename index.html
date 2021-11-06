@@ -12,35 +12,52 @@
 <body>
 <header>
         <h1>A<div>2</div>Z</h1>
+        <a>by Alexander Lanz</a>
 </header> 
     <nav>
-        <a href="#">Who I Am</a>
-        <a href="#">My Work</a>
-        <a href="#footer">Find Me</a>
+        <a href="#me"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+          </svg> Who I Am <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+          </svg></a>
+        <a href="#work"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+          </svg> My Work <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+          </svg></a>
+        <a href="#contacts"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+          </svg> Find Me <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+          </svg></a>
     </nav>
 
 <main>
-<column>
+    <section id = "me">
         <div class = "column side">
             <img src = "images/Serious.jpeg" class= "serious">
             <h2>Who I am</h2>
             <p>As my name suggests, 
-                I'm a detail oriented individual here to assist with your every need from a2z.</p>
+                I'm a detail oriented individual here to assist with your every need from A to Z.</p>
             <p>I have excelled in multiple customer service fields 
                 over the span of a decade. Coupled with a tech savvy artistic flair, I am confident that I can quickly and efficently
                 create beautiful, practical, user friendly applications for any occasion.</p>
         </div>
-</column> 
+    </section>
+        <section id = "work">
         <div class = "column middle">
             <h1>Gallery</h1>
-        <div class = "art">
-
-        </div>
-        </div>
+                <ul>
+                    <li><img src="./images/Beehive.jpeg" alt="Beehive" style="width: 225px;px;height:600px;00px"></li>
+                    <li><img src="./images/Cake.jpeg" alt="Cake" style="width:225px;height:600px"></li>
+                    <li><img src="./images/Gaming.jpeg" alt="Mountains" style="width:225px;height:600px"></li>
+                </ul>
+    </section>
 </main>
 
 <footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+    <section id = "contacts">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" alt="contacts">
     </script>
     <ul>
         <li>
@@ -58,5 +75,6 @@
         <a href="#">
         <i class="fab fa-google-plus-g icon"></i></a></li>
       </ul>
+    </section>
 </footer>
 </body>
